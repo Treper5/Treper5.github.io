@@ -1,0 +1,69 @@
+<head> 
+
+
+    <link rel="stylesheet" href=ghgh.css />
+    
+    
+    </head>
+    <body> 
+        <div id="baner">Źródlana woda uśmiechu doda </div>
+    
+    <div id="lewo"><div id="button"><tr>
+        <h1>Oferta handlowa:</h1>
+        <form name='formularz'>
+            
+            <label for='typ'><h5>Wybierz rodzaj wody:</h5></label>
+            <select id='typ' name='typ'>
+            <option value='A'>Bonaqua 2 zl   </option>
+            <option value='B'>Kropla 3 zl    </option>
+            <option value='C'>Cisowianka 4 zl</option>
+            <option value='D'>Kranowa 5 zl   </option>
+            </select>
+            
+            
+            <label for='ilosc'><h5>Ile butelek?</h5></label>
+            <input type='number' id='ilosc' name='ilosc'>
+            
+            <input id="fty" type='button' value='Oblicz' onclick="oblicz()">
+            </form>
+           
+            
+            <h5>Złoty do zapłaty:</h5>
+            <p id='wynik'></p>
+            
+            <script>
+            function oblicz(){
+            var wynik=0;
+            var typ=document.forms['formularz']['typ'].value;
+            var ilosc=document.forms['formularz']['ilosc'].value;
+            if(typ=='A')
+            {
+            wynik+=2*ilosc;
+            }
+            else if(typ=='B')
+            {
+            wynik+=3*ilosc;
+            }
+            else if(typ=='C')
+            {
+            wynik+=4*ilosc;
+            }
+            else if(typ=='D')
+            {
+            wynik+=5*ilosc;
+            }
+            
+            document.getElementById('wynik').innerHTML=wynik;
+            }
+            </script>
+
+<button type="button" id="nigge" onclick="alert('Dziękujemy za zakup')">KUP</button>
+
+
+    </h2></div><div id="button2"></div></div>
+
+    
+    <div id="prawo"></div>
+    <div id="stopa">"Nigger"-Dominik Hadała</div>
+    
+    </body> 

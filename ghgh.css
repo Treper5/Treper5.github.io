@@ -1,0 +1,102 @@
+
+    
+
+
+#baner{
+    box-shadow: 5px 10px 10px;
+    outline:groove #3366cc;
+    background-color:#f9f9f9;
+    font-size:40px;
+    text-align:center;
+    height:10%;
+    letter-spacing:5px;}
+
+
+#lewo 
+{
+background-color:#003399cc;
+width:50%;
+height:74%;
+float:left; 
+box-shadow:5px 10px 10px;
+outline:groove#003399cc;
+}
+#prawo{
+    background-color:#3399CC;
+    width:50%;
+    height:74%;
+    text-align:center;
+    float:right;
+    box-shadow:5px 10px 10px;
+    outline:groove#3399CC;
+}
+#stopa{
+    background-color:#cfd8dc;
+    height:10%;
+    text-align:right;
+    margin-top:37%;
+    width:auto;
+    box-shadow:5px 10px 10px;
+    outline:groove #cfd8dc;
+font-size:25px;
+
+    
+    
+    
+    
+}
+#button{
+    margin-inline:auto;
+   margin:auto;
+   height:310px;
+   width:280px;
+   background-color: #99CCFF;
+   border-radius:10px;
+   margin-top:70px;
+
+}
+#button2{
+
+    margin:auto;
+    margin-inline:auto;
+    width:280px;
+    height:60px;
+    background-color:white;
+    border-radius:10px;
+    text-align:center;
+    margin-top:10px;
+}
+h1{
+    color:red;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:26px;
+
+}
+h2{
+    font-size:18;
+    text-align:center;
+}
+
+#nigge{
+    background-color:cornflowerblue;
+    box-shadow:3px 2px 1px;
+    margin-left:200px;
+    font-size:15px;
+    
+    
+}
+
+#fty{
+    border:3px solid gold;
+    box-shadow:3px 2px 3px;     
+    
+}
+
+    
+h5{
+font-size:20px;
+margin-bottom:auto;
+margin:auto;
+
+}
